@@ -12,4 +12,4 @@ app.use((error, request, response, next) => {
   response.sendStatus(500);
 });
 
-app.listen(3000, () => console.log('RODANDO EM http://localhost:3000'));
+app.listen(3001, () => console.log('RODANDO EM http://localhost:3000'));
